@@ -32,6 +32,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 9px;
 }
 
  .icon {
@@ -46,6 +47,7 @@ p {
     height: 32px;
     width: 32px;
     z-index: 0;  
+    margin-right: 9px;
  }
  .icon:hover {
     background-color: gray;
@@ -64,13 +66,96 @@ p {
     height: 26px;
     width: 26px;
     z-index: 0;  
+    margin-right: 15px;
+    margin-top: 2px;
  }
 
  .icon1:hover {
  background-color: rgb(211,211,211);
  }
  
-.search {
-    float: center;
+.big {
+    width: auto;
+    max-width: 580px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    display: block;
+}
+.big1 {
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 28px;
 }
 
+.big2 {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.big3 {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+
+}
+.big4 {
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+    height: 34px;
+    width: 480px;
+}
+.mic {
+    height: 28px;
+    width: 28px;   
+}
+.mic:hover {
+    cursor: pointer;
+}
+
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    margin-left: 550px;
+}
+.button1 {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    
+}
