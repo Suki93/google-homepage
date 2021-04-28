@@ -1,10 +1,14 @@
 body {
     background-color: rgb(255, 255, 255);
-    color: rgb(187, 73, 73);
+    font-size: 14px;
+    font-family: arial,sans-serif;
     
 }
 p {
-    color: rgb(4, 0, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    text-justify: center;
 }
 
 .topnav {
@@ -142,7 +146,8 @@ p {
     height: 36px;
     min-width: 54px;
     text-align: center;
-    margin-left: 550px;
+    margin-left: 530px;
+    margin-top: 20px;
 }
 .button1 {
     background-color: #f8f9fa;
@@ -158,4 +163,91 @@ p {
     min-width: 54px;
     text-align: center;
     
+}
+.button:hover {
+    border-radius: 4px;
+    border: 1px solid #c2c4c4;
+    cursor: pointer;
+}
+.button1:hover {
+    border-radius: 4px;
+    border: 1px solid #c2c4c4;
+    cursor: pointer;
+}
+.bot {
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+}
+.bot1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.bot2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px; 
+}
+.bot3 {
+    justify-content: space-evenly;
+}
+.link {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    float: left;
+}
+.link1 {
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    float: right;  
+   position: absolute;
+   right: 160px;
+}
+.link2 {
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    float: right;  
+   position: absolute;
+   right: 90px;
+}
+.link3 {
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    float: right;  
+   position: absolute;
+   right: 10px;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.srb {
+    color: rgb(60, 0, 128);
+}
+.srb:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
